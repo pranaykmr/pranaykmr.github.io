@@ -46,7 +46,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Home</a>
+          <a class="nav-link js-scroll-trigger" href="#home">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
@@ -60,6 +60,10 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#aboutme">About Me</a>
         </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
         </li>
@@ -72,7 +76,7 @@
 
   <div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="home">
       <div class="w-100">
         <h1 class="mb-0">Pranay Kumar
           <span class="text-primary">Verma</span>
@@ -113,7 +117,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
-
+        <!-- <h2 class="mb-5 resume-heading">Experience</h2> -->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Mobile Application Programmer & Application Package Management Lead</h3>
@@ -227,11 +231,11 @@
           </li>
         </ul>
 
-        <div class="subheading mb-3">Skills</div>
+        <div class="subheading mb-3">Frameworks</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
-            Hybrid Mobile Apps</li>
+            Hybrid Mobile Applications</li>
           <li>
             <i class="fa-li fa fa-check"></i>
             Mobile-First, Responsive Design</li>
@@ -293,6 +297,119 @@
         <p>
           I love making new professional connections. Reach out to me if you want to talk about technology or sports.
         </p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <div class="subheading mb-3">Predicting Financial Markets</div>
+            <div>This project was an experiment to predict stock prices and identify the best machine Learning algorithm
+              among the 4 methods used in the project. Used Support Vector Regression, Linear and Polynomial Regression,
+              Moving Average and Long Short Term Memory to learn trends & predict future stock prices. Developed in a
+              way that the stock could be selected by the user at runtime. Evaluated the methods and the best yielded
+              confidence of 95%.</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Oct 2019 - Dec 2019</span>
+            <br>
+            <br>
+            <div class="link-icons">
+              <a target="_blank" href="https://github.com/pranaykmr/Predicting-Financial-Markets">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <div class="subheading mb-3">Flight Delay Prediction</div>
+            <div>Implemented Linear Regression, Ridge Regression, Random Forest and Boosted Linear Regression on an
+              airline delay dataset to predict the delay time of the given input. Implemented K neighbors classifier,
+              Logistic regression and decision trees on an airline delay dataset to predict if the flight is delayed.
+              Based on the Mean Squared Error and R2 score, Linear regression and Boosted linear regression produced the
+              best result and Random Forest Regression without intercept had the highest MSE, hence, the least preferred
+              method for predicting delays. The two best method for classification were Logistic regression and K
+              neighbors classifier, both of them yielding the highest F1, Precision and Recall. </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Oct 2019 - Nov 2019</span>
+            <br>
+            <br>
+            <div class="link-icons">
+              <a target="_blank" href="https://github.com/pranaykmr/FlightDelayPreiction">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <div class="subheading mb-3">movie recommender system</div>
+            <div>Created a Model Based and Item Based Collaborative Filtering Recommendation System for the movie lens
+              dataset. Created both item-wise and user-wise classifiers then based on their similarity perform
+              predictions.</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">November 2019</span>
+            <br>
+            <br>
+            <div class="link-icons">
+              <a target="_blank" href="https://github.com/pranaykmr/RecommenderSystem">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <div class="subheading mb-3">Order Management and Report Creation</div>
+            <div>Created a full stack Angular 7, TypeScript application using WCF Restful Webservices and SQL. Provided
+              authentication and authorization functionalities using PassportjS. Extensive use of HTML5, CSS3 and
+              Bootstrap to create visually appealing and responsive website. Integrated RESTful routing for the
+              functioning of the website.</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2019</span>
+            <br>
+            <br>
+            <div class="link-icons">
+              <a target="_blank" href="https://github.com/pranaykmr/OrderMgmtSystem">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <div class="subheading mb-3">Vehicle Diagnostic and Performance Application</div>
+            <div>Developed an Android Application which enables the user to connect to their car and check its
+              performance or any fault codes generated on their handheld device. The application enables the user device
+              to connect to the vehicle’s Engine Control Unit (ECU) using an OBD-II connector. It provides the ability
+              to see what a particular vehicle is doing in real-time, lookup fault codes generated, timing advance,
+              sensor data and more.</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jan 2015 - May 2015</span>
+            <br>
+            <br>
+            <div class="link-icons">
+              <a target="_blank" href="https://github.com/pranaykmr/VehicleDiagnostics">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
